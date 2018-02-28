@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>折叠树</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div id="content_wrap">
+        <!-- 内容块 -->
+        <div class="content_block" data-level="1">
+            <h4 class="title"><span class="title_content">收入(含油)</span>:</h4>
+            <div class="content">
+                实际16853.45万元
+            </div>
+            <div class="dot" data-pannl=true></div>
+        </div>
+        <!-- 内容块结束 -->
+        <div class="content_block" data-level="1-1">
+            <h4 class="title"><span class="title_content">货运收入</span>:</h4>
+            <div class="content">
+                实际0.00000万元
+            </div>
+        </div>
+        <div class="content_block" data-level="1-2">
+            <h4 class="title"><span class="title_content">行事收入</span>:</h4>
+            <div class="content">
+                实际0.00000万元
+            </div>
+        </div>
+        <div class="content_block" data-level="1-3">
+            <h4 class="title"><span class="title_content">客运收入</span>:</h4>
+            <div class="content">
+                实际0.00000万元
+            </div>
+            <div class="dot" data-pannl=true></div>
+        </div>
+        <div class="content_block" data-level="1-3-1">
+            <h4 class="title"><span class="title_content">客运收入</span>:</h4>
+            <div class="content">
+                实际0.00000万元
+            </div>
+        </div>
+    </div>
+    <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg"></svg>
+</body>
+<script src="./js/jquery-2.2.3.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
